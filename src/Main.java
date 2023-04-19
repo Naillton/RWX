@@ -1,5 +1,11 @@
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+
+        RWX arq = new RWX();
+        //arq.arqFunc();
+        arq.setWriteFile("f mantido e esa e uma nova linha");
+        arq.readContent();
+        //arq.showFiles();
     }
 }
